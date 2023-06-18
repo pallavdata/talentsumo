@@ -1,5 +1,5 @@
 <div class="container">
-<p> To see this intro in project first clone the prject >> run the project <code>python manage.py runserver</code> >> then go to <code>into/</code> URL </p>
+<p> To see this intro in project first clone the project >> run the project <code>python manage.py runserver</code> >> then go to <code>into/</code> URL </p>
     <div class="code">
         To login to the admin URL - <code>admin/</code>:<br>
         Username: talentsumo<br>
