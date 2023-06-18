@@ -1,11 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Django REST API Example</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<style>
+    h1, h2, h3, p {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .code {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: "Courier New", monospace;
+    }
+</style>
+<body>
 <div class="container">
-<p> To see this intro in project first clone the prject >> run the project <code>python manage.py runserver</code> >> then go to <code>into/</code> URL </p>
     <div class="code">
         To login to the admin URL - <code>admin/</code>:<br>
         Username: talentsumo<br>
         Password: Django@123<br>
     </div>
-    <hr>
     <h1>Django REST API Example</h1>
     <p>This is a simple web page that explains the URLs in a Django REST API project. The project allows users to register, login, create, view and share notes with text, video or audio.</p>
     <h2>URLs</h2>
@@ -16,7 +44,6 @@
         <li><code></code>: This URL allows users to view and create notes. It uses the <code>GET</code> method to return a JSON response with a list of all the notes created by the user, and the <code>POST</code> method to create a new note by providing text, video or audio data. The view class for this URL is <code>Notes</code>.</li>
         <li><code>shared/</code>: This URL allows users to view and share notes with other users. It uses the <code>GET</code> method to return a JSON response with a list of all the notes shared by other users to the user, and the <code>POST</code> method to share a note by providing the note id and the username of the recipient. The view class for this URL is <code>Shared</code>.</li>
     </ul>
-    <hr>
     <h2>Example Code</h2>
     <p>The following code snippet shows how to define the URLs in the <code>urls.py</code> file:</p>
     <div class="code">
@@ -32,3 +59,5 @@
         ]<br>
     </div>
 </div>
+</body>
+</html>
